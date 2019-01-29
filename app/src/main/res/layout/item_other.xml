@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@color/colorWrite"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/iv_goods"
+        android:src="@drawable/pig"
+        />
+
+    <TextView
+        android:layout_toRightOf="@id/iv_goods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/tv_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="@color/textMain"
+        />
+
+    <TextView
+       android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@id/tv_content"
+        android:textColor="@color/colorAccent"
+        android:layout_toRightOf="@id/iv_goods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        />
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/iv_goods"
+        android:background="@color/colorLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</RelativeLayout>
