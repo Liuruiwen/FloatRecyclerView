@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 50; i++) {
             OtherBean otherBean = new OtherBean();
             otherBean.setName("猪猪侠" + i);
-            otherBean.setContent("农历己亥猪年从2019年2月5日开始，到2020年1月24日结束，也是一个平年，共有354天。" + i);
+            otherBean.setContent("猪在十二生肖中排行最后的一位，与十二地支配属“亥”，故一天十二时辰的“亥时”——晚上九点至十一点称“猪时”，易卦为“猪为材”。" + i);
             listMulti.add(otherBean);
         }
 

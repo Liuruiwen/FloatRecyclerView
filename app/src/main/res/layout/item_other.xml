@@ -6,8 +6,8 @@
     android:background="@color/colorWrite"
     android:layout_height="wrap_content">
     <ImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:id="@+id/iv_goods"
         android:src="@drawable/pig"
         />
@@ -19,6 +19,7 @@
         android:layout_marginLeft="8dp"
         android:id="@+id/tv_content"
         android:layout_weight="1"
+        android:textSize="20sp"
         android:text=""
         android:textColor="@color/textMain"
         />
@@ -31,11 +32,12 @@
         android:layout_toRightOf="@id/iv_goods"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="22sp"
         android:id="@+id/tv_name"
         />
     <View
         android:layout_marginTop="15dp"
-        android:layout_below="@id/iv_goods"
+        android:layout_below="@id/tv_name"
         android:background="@color/colorLine"
         android:layout_width="match_parent"
         android:layout_height="1dp"/>

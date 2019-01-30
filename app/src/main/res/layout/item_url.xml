@@ -5,5 +5,5 @@
   <com.ruiwenliu.rxcarouselview.CarouselView
       android:layout_width="match_parent"
       android:id="@+id/carouse_view"
-      android:layout_height="300dp"/>
+      android:layout_height="500dp"/>
 </RelativeLayout>
