@@ -23,6 +23,7 @@ public class MainApplication extends Application{
     public void onCreate() {
         super.onCreate();
         this.instance=this;
+
     }
     public static Application getInstance() {
         return instance;

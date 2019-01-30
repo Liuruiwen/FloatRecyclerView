@@ -27,7 +27,6 @@ public class FloatAdapter extends BaseMultiItemQuickAdapter<MultiItemBean, BaseV
     public static final int TYPE_ADV = 3;//广告
     public static final int TYPE_OTHER = 4;//列表
 
-
     public FloatAdapter(List<MultiItemBean> data) {
         super(data);
         addItemType(TYPE_URL, R.layout.item_url);

@@ -73,7 +73,6 @@ public class MainActivity extends AppCompatActivity {
                     layHeader.setBackgroundResource(R.color.colorPrimary);
                     tvTest.setTextColor(Color.WHITE);
                 }
-
             }
         });
 
