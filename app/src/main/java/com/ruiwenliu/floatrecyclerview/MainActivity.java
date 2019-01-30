@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * 获取集合数据
+     *
      * @return
      */
     private List<MultiItemBean> getList() {
@@ -162,5 +163,9 @@ public class MainActivity extends AppCompatActivity {
         return imageView;
     }
 
-
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        StateUtils.getInstance(this).clearActivity();
+    }
 }
